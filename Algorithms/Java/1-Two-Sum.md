@@ -14,7 +14,7 @@ return [0, 1].
 
 ##### Solution 1.
 
-此方法最直覺用雙迴圈下去一序做比較
+此方法最直覺用雙迴圈下去一序做比較。
 
 - 暴力、窮舉
 - Run Time:	41 ms
@@ -38,7 +38,7 @@ class Solution {
 
 ##### Solution 2.
 
-
+此種方法是利用容器 HashMap 下去實作使用 Key、Value 下去做搜尋，Key 儲存 twoSum 裡的內容，Value 儲存 twoSum 裡的索引值。
 
 - One-pass Hash Table
 - Run Time:	8 ms

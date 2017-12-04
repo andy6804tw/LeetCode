@@ -37,16 +37,17 @@ char *reverseString(char *s){
 - 空間複雜度 O(n)
 
 ```c
-char* reverseString(char* s) {
-int i=strlen(s)-1;
-char* str=(char*)malloc(strlen(s)+1);
-while(i>=0){
-*str=s[i--];
-str++;
-}
-*str='\0';
-str-=strlen(s);
-return str;
+char *reverseString(char *s){
+  int i = strlen(s) - 1;
+  char *str = (char *)malloc(strlen(s) + 1);
+  while (i >= 0)
+  {
+    *str = s[i--];
+    str++;
+  }
+  *str = '\0';
+  str -= strlen(s);
+  return str;
 }
 ```
 
