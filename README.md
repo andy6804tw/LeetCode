@@ -1,6 +1,6 @@
 # LeetCode
 
-Solutions:
+**Solutions:**
 
 #### 1. [Two Sum](https://leetcode.com/problems/reverse-string/description/) `[Array Easy]`  [C](/Algorithms/C/1-Two-Sum.md) [Java](/Algorithms/Java/1-Two-Sum.md) 
 

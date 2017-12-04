@@ -1,12 +1,14 @@
 # 344-Reverse String
 
+## Problem
+
 Write a function that takes a string as input and returns the string reversed.
 
 **Example:**
 
 Given s = "hello", return "olleh".
 
-
+## C 
 ##### Solution 1.
 
 使用指標方式並配置記憶體位置使用陣列索引方式從陣列 s 尾逐一回頭塞入 str指標陣列，記得加入 \0 表示字串結尾。
