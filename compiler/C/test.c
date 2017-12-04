@@ -1,29 +1,19 @@
 #include<stdio.h>
 #include <stdlib.h>
-int *twoSum(int *nums, int numsSize, int target);
-int main()
-{
-  int n[]={1,2,4};
-  int *p = (int *)malloc(2 * sizeof(int));
-  p=twoSum(n, 3, 3);
-  printf("%d",p[0]);
+#include <limits.h>
+int reverse(int x);
+int main(){
+  int x=100;
+  printf("%d\n", reverse(1534236469));
 }
-/**
- * Note: The returned array must be malloced, assume caller calls free().
- */
-int *twoSum(int *nums, int numsSize, int target){
-  int i=0,j=0;
-  int *arr=(int *)malloc(2*sizeof(int));
-  for (; i < numsSize;i++){
-    for (; j < numsSize;j++){
-      if(nums[i]+nums[j]==target){
-        arr[0]=i;
-        arr[1]=j;
-        return arr;
-      }
-    }
+int reverse(int x){
+  long tot=0;
+  while(x!=0){
+    tot = (tot * 10) + (x % 10);
+    x /= 10;
   }
-  return arr;
+  if (tot > INT_MAX || tot < INT_MIN)
+    return 0;
+  else
+    return tot;
 }
-
-
