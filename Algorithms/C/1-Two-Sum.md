@@ -17,18 +17,16 @@ return [0, 1].
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
-int *twoSum(int *nums, int numsSize, int target){
-  int i=0,j=0;
-  int *arr=(int *)malloc(2*sizeof(int));
-  for (i=0; i < numsSize;i++){
-    for (j=1+i; j < numsSize;j++){
-      if(nums[i]+nums[j]==target){
-        arr[0]=i;
-        arr[1]=j;
-        return arr;
-      }
-    }
+char *reverseString(char *s){
+  int i = strlen(s) - 1;
+  char *str = (char *)malloc(strlen(s) + 1);
+  while (i >= 0)
+  {
+    *str = s[i--];
+    str++;
   }
-  return arr;
+  *str = '\0';
+  str -= strlen(s);
+  return str;
 }
 ```
