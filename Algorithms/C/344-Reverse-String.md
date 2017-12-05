@@ -14,8 +14,8 @@ Given s = "hello", return "olleh".
 
 - 陣列走訪
 - Run Time:	3 ms
-- 時間複雜度 O(n)
-- 空間複雜度 O(n)
+- 時間複雜度: O(n)
+- 空間複雜度: O(n)
 
 ```c
 char *reverseString(char *s){
@@ -34,8 +34,8 @@ char *reverseString(char *s){
 
 - 指標陣列走訪
 - Run Time:	3 ms
-- 時間複雜度 O(n)
-- 空間複雜度 O(n)
+- 時間複雜度: O(n)
+- 空間複雜度: O(n)
 
 ```c
 char *reverseString(char *s){

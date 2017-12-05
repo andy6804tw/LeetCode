@@ -15,8 +15,8 @@ Given s = "hello", return "olleh".
 
 - StringBuffer 類別型態
 - Run Time: 4 ms
-- 時間複雜度 O(1)
-- 空間複雜度 O(1)
+- 時間複雜度: O(1)
+- 空間複雜度: O(1)
 
 ```java
 class Solution {

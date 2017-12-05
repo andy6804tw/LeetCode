@@ -21,8 +21,8 @@ There is a more generic way of solving this problem.
 
 - 陣列走訪、暴力
 - Run Time: 254 ms
-- 時間複雜度 O(n/2)
-- 空間複雜度 O(n)
+- 時間複雜度: O(n/2)
+- 空間複雜度: O(n)
 
 ```java
 class Solution {

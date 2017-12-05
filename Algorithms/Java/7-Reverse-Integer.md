@@ -28,8 +28,8 @@ Assume we are dealing with an environment which could only hold integers within 
 
 - StringBuffer 類別型態
 - Run Time: 54 ms
-- 時間複雜度 O(1)
-- 空間複雜度 O(1)
+- 時間複雜度: O(1)
+- 空間複雜度: O(1)
 
 ```java
 class Solution {

@@ -21,8 +21,8 @@ return [0, 1].
 
 - 暴力、窮舉
 - Run Time:	41 ms
-- 時間複雜度 O(n<sup>2</sup>)
-- 空間複雜度 O(1)
+- 時間複雜度: O(n<sup>2</sup>)
+- 空間複雜度: O(1)
 ```java
 class Solution {
     public int[] twoSum(int[] nums, int target) {

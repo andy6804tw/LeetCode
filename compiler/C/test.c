@@ -1,21 +1,27 @@
 #include<stdio.h>
 #include <stdlib.h>
+#include <string.h>
 typedef int bool;
-bool isPalindrome(int x);
+bool isValid(char *s);
 int main(){
   int x=100;
-  printf("%d\n", isPalindrome(1090));
+  printf("%d\n", isValid("[[]"));
 }
-bool isPalindrome(int x){
-  long tot=0,y=x;
-  if(x<0)
-    return 0;
-  while(x!=0){
-    tot=tot*10+x%10;
-    x/=10;
+bool isValid(char *s)
+{
+  char stack[1000000];
+  int i = 0, index = 0;
+  while (*s)
+  {
+    if (*s == '(')
+      stack[index++] = ')';
+    else if (*s == '{')
+      stack[index++] = '}';
+    else if (*s == '[')
+      stack[index++] = ']';
+    else if (index == 0 || stack[--index] != *s)
+      return 0;
+    s++;
   }
-  if(tot==y)
-    return 1;
-  else
-    return 0;
+  return index == 0;
 }
