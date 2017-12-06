@@ -2,26 +2,17 @@
 #include <stdlib.h>
 #include <string.h>
 typedef int bool;
-bool isValid(char *s);
+int removeDuplicates(int *nums, int numsSize);
 int main(){
-  int x=100;
-  printf("%d\n", isValid("[[]"));
+  int x[]={1,1,2};
+  printf("%d\n", removeDuplicates(x,3));
 }
-bool isValid(char *s)
-{
-  char stack[1000000];
-  int i = 0, index = 0;
-  while (*s)
-  {
-    if (*s == '(')
-      stack[index++] = ')';
-    else if (*s == '{')
-      stack[index++] = '}';
-    else if (*s == '[')
-      stack[index++] = ']';
-    else if (index == 0 || stack[--index] != *s)
-      return 0;
-    s++;
+int removeDuplicates(int *nums, int numsSize){
+  int index=0,i=0;
+  for(;i<numsSize;i++){
+    if(i==0||nums[i]>nums[i-1]){
+      nums[index++]=nums[i];
+    }
   }
-  return index == 0;
+  return index;
 }
