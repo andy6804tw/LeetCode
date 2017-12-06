@@ -2,15 +2,15 @@
 #include <stdlib.h>
 #include <string.h>
 typedef int bool;
-int removeDuplicates(int *nums, int numsSize);
+int removeElement(int *nums, int numsSize, int val);
 int main(){
-  int x[]={1,1,2};
-  printf("%d\n", removeDuplicates(x,3));
+  int x[] = {3, 2, 2, 3};
+  printf("%d\n", removeElement(x, 4,3));
 }
-int removeDuplicates(int *nums, int numsSize){
+int removeElement(int *nums, int numsSize, int val){
   int index=0,i=0;
   for(;i<numsSize;i++){
-    if(i==0||nums[i]>nums[i-1]){
+    if(nums[i]!=val){
       nums[index++]=nums[i];
     }
   }
