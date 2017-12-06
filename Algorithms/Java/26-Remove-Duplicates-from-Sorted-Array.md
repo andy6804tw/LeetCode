@@ -24,7 +24,7 @@ It doesn't matter what you leave beyond the new length.
 - 時間複雜度: O(n)
 - 空間複雜度: O(1)
 
-```js
+```java
 class Solution {
     public int removeDuplicates(int[] nums) {
         int index=0;

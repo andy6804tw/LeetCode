@@ -15,7 +15,7 @@ The brackets must close in the correct order, "()" and "()[]{}" are all valid bu
 - 時間複雜度: O(n)
 - 空間複雜度: O(n)
 
-```js
+```java
 class Solution {
     public boolean isValid(String s) {
 		Stack<Character> stack = new Stack<Character>();
