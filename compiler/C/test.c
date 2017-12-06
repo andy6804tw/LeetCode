@@ -2,17 +2,25 @@
 #include <stdlib.h>
 #include <string.h>
 typedef int bool;
-int removeElement(int *nums, int numsSize, int val);
+int strStr(char *haystack, char *needle);
 int main(){
-  int x[] = {3, 2, 2, 3};
-  printf("%d\n", removeElement(x, 4,3));
+  printf("%d\n", strStr("","1"));
 }
-int removeElement(int *nums, int numsSize, int val){
-  int index=0,i=0;
-  for(;i<numsSize;i++){
-    if(nums[i]!=val){
-      nums[index++]=nums[i];
+int strStr(char *haystack, char *needle){
+   int haystackLength = strlen(haystack), needleLength = strlen(needle), i = 0, j = 0;
+   if (haystackLength < needleLength)
+     return -1;
+   else if (needleLength == 0)
+     return 0;
+   char arr[needleLength], origin[haystackLength];
+   for (; i < haystackLength;i++){
+     for (j=0; j < needleLength;j++){
+       if (haystack[i + j] != needle[j]){
+          break;
+       }
+      }
+      if (j == needleLength)
+      return i;
     }
-  }
-  return index;
+    return -1;
 }
