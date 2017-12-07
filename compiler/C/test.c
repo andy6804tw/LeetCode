@@ -1,26 +1,19 @@
-#include<stdio.h>
+#include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
-typedef int bool;
-int strStr(char *haystack, char *needle);
-int main(){
-  printf("%d\n", strStr("","1"));
+int searchInsert(int *nums, int numsSize, int target);
+int main()
+{
+  int arr[]={1,3,4,5};
+  printf("%d\n", searchInsert(arr,4,2));
 }
-int strStr(char *haystack, char *needle){
-   int haystackLength = strlen(haystack), needleLength = strlen(needle), i = 0, j = 0;
-   if (haystackLength < needleLength)
-     return -1;
-   else if (needleLength == 0)
-     return 0;
-   char arr[needleLength], origin[haystackLength];
-   for (; i < haystackLength;i++){
-     for (j=0; j < needleLength;j++){
-       if (haystack[i + j] != needle[j]){
-          break;
-       }
-      }
-      if (j == needleLength)
-      return i;
+int searchInsert(int *nums, int numsSize, int target)
+{
+  int index=numsSize,i=0;
+  for(;i<numsSize;i++){
+    if(nums[i]>=target){
+      index = i;
+      break;
     }
-    return -1;
+  }
+  return i;
 }
