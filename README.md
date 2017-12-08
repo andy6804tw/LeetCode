@@ -13,6 +13,7 @@
 28.|[ Implement strStr()](https://leetcode.com/problems/implement-strstr/description/)|String|Easy|[C](/Algorithms/C/28-Implement-strStr.md) [Java](/Algorithms/Java/28-Implement-strStr.md)|
 35.|[Search Insert Position](https://leetcode.com/problems/search-insert-position/description/)|Array|Easy|[C](/Algorithms/C/35-Search-Insert-Position.md) [Java](/Algorithms/Java/35-Search-Insert-Position.md)|
 53.|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/)|Array|Easy|[C](/Algorithms/C/53-Maximum-Subarray.md) [Java](/Algorithms/Java/53-Maximum-Subarray.md)|
+58.|[Length of Last Word](https://leetcode.com/problems/length-of-last-word/description/)|String|Easy|[C](/Algorithms/C/58-Length-of-Last-Word.md) [Java](/Algorithms/Java/58-Length-of-Last-Word.md)|
 344.|[Reverse String](https://leetcode.com/problems/reverse-string/description/)|String |Easy|[C](/Algorithms/C/344-Reverse-String.md) [Java](/Algorithms/Java/344-Reverse-String.md) 
 
 
