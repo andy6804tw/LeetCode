@@ -1,15 +1,26 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-int mySqrt(int x) ;
+typedef int bool;
+bool isAnagram(char *s, char *t);
 int main()
 {
-  printf("%d\n",mySqrt(64));
+  printf("%d\n", isAnagram("", ""));
 }
-int mySqrt(int x) {
-    int r=x;
-    while(r*r>x){
-      r = (r + x / r) / 2;
-    }
-    return r;
+bool isAnagram(char *s, char *t)
+{
+  if(strlen(s)!=strlen(t))
+    return 0;
+  int arr[26]={0},i=0;
+  while(*s){
+    arr[*s - 'a']++;
+    arr[*t-'a']--;
+    s++;
+    t++;
+  }
+  for(i=0;i<26;i++){
+    if(arr[i]!=0)
+      return 0;
+  }
+  return 1;
 }

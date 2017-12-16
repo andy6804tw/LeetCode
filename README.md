@@ -14,6 +14,7 @@
 35.|[Search Insert Position](https://leetcode.com/problems/search-insert-position/description/)|Array|Easy|[C](/Algorithms/C/35-Search-Insert-Position.md) [Java](/Algorithms/Java/35-Search-Insert-Position.md)|
 53.|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/)|Array|Easy|[C](/Algorithms/C/53-Maximum-Subarray.md) [Java](/Algorithms/Java/53-Maximum-Subarray.md)|
 69.|[Sqrt(x)](https://leetcode.com/problems/sqrtx/description/)|Math|Easy|[C](/Algorithms/C/69-Sqrt(x).md) [Java](/Algorithms/Java/69-Sqrt(x).md)|
+242.|[Valid Anagram](https://leetcode.com/problems/valid-anagram/description/)|String|Easy|[C](/Algorithms/C/242-Valid-Anagram.md) [Java](/Algorithms/Java/242-Valid-Anagram.md)|
 344.|[Reverse String](https://leetcode.com/problems/reverse-string/description/)|String |Easy|[C](/Algorithms/C/344-Reverse-String.md) [Java](/Algorithms/Java/344-Reverse-String.md) 
 
 
