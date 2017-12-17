@@ -2,25 +2,27 @@
 #include <stdlib.h>
 #include <string.h>
 typedef int bool;
-bool isAnagram(char *s, char *t);
+char *reverseVowels(char *s);
 int main()
 {
-  printf("%d\n", isAnagram("", ""));
+  printf("%s\n", reverseVowels("a a"));
 }
-bool isAnagram(char *s, char *t)
+char *reverseVowels(char *s)
 {
-  if(strlen(s)!=strlen(t))
-    return 0;
-  int arr[26]={0},i=0;
-  while(*s){
-    arr[*s - 'a']++;
-    arr[*t-'a']--;
-    s++;
-    t++;
+  const char *vowels = "aeiouAEIOU";
+  char tmp;
+  int i = 0, j = strlen(s) - 1;
+  while (i < j)
+  {
+    while ((i < j) && !strchr(vowels, s[i]))
+      i++;
+    while ((i < j) && !strchr(vowels, s[j]))
+      j--;
+    tmp = s[i];
+    s[i] = s[j];
+    s[j] = tmp;
+    i++;
+    j--;
   }
-  for(i=0;i<26;i++){
-    if(arr[i]!=0)
-      return 0;
-  }
-  return 1;
+  return s;
 }
