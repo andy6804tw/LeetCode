@@ -2,27 +2,20 @@
 #include <stdlib.h>
 #include <string.h>
 typedef int bool;
-char *reverseVowels(char *s);
+bool isIsomorphic(char *s, char *t);
 int main()
 {
-  printf("%s\n", reverseVowels("a a"));
+  printf("%d\n",isIsomorphic("add","egg"));
 }
-char *reverseVowels(char *s)
+bool isIsomorphic(char *s, char *t)
 {
-  const char *vowels = "aeiouAEIOU";
-  char tmp;
-  int i = 0, j = strlen(s) - 1;
-  while (i < j)
+  int arr1[255]={0}, arr2[255]={0}, i = 0;
+  for (i = 0; i < strlen(s); i++)
   {
-    while ((i < j) && !strchr(vowels, s[i]))
-      i++;
-    while ((i < j) && !strchr(vowels, s[j]))
-      j--;
-    tmp = s[i];
-    s[i] = s[j];
-    s[j] = tmp;
-    i++;
-    j--;
+    if (arr1[s[i]] != arr2[t[i]])
+      return 0;
+    arr1[s[i]] = i + 1;
+    arr2[t[i]] = i + 1;
   }
-  return s;
+  return 1;
 }
