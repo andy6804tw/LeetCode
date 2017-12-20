@@ -2,20 +2,21 @@
 #include <stdlib.h>
 #include <string.h>
 typedef int bool;
-bool isIsomorphic(char *s, char *t);
+void moveZeroes(int *nums, int numsSize);
 int main()
 {
-  printf("%d\n",isIsomorphic("add","egg"));
+  //printf("%d\n",isIsomorphic("add","egg"));
+  int arr[] = {0, 1, 0, 3, 12};
+  moveZeroes(arr);
 }
-bool isIsomorphic(char *s, char *t)
+void moveZeroes(int *nums, int numsSize)
 {
-  int arr1[255]={0}, arr2[255]={0}, i = 0;
-  for (i = 0; i < strlen(s); i++)
-  {
-    if (arr1[s[i]] != arr2[t[i]])
-      return 0;
-    arr1[s[i]] = i + 1;
-    arr2[t[i]] = i + 1;
+  int index=0,i=0;
+  for(i=o;i<numsSize;i++){
+    if(nums[i]!=0){
+      nums[index++]=nums[i];
+    }
   }
-  return 1;
+  for(int i=index;i<numsSize;i++)
+    nums[i]=0;
 }
