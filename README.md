@@ -13,6 +13,7 @@
 28.|[ Implement strStr()](https://leetcode.com/problems/implement-strstr/description/)|String|Easy|[C](/Algorithms/C/28-Implement-strStr.md) [Java](/Algorithms/Java/28-Implement-strStr.md)|
 35.|[Search Insert Position](https://leetcode.com/problems/search-insert-position/description/)|Array|Easy|[C](/Algorithms/C/35-Search-Insert-Position.md) [Java](/Algorithms/Java/35-Search-Insert-Position.md)|
 53.|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/)|Array|Easy|[C](/Algorithms/C/53-Maximum-Subarray.md) [Java](/Algorithms/Java/53-Maximum-Subarray.md)|
+67.|[Add Binary](https://leetcode.com/problems/add-binary/description/)|Array|Easy|[C](/Algorithms/C/67-Add-Binary.md) [Java](/Algorithms/Java/67-Add-Binary.md)|
 69.|[Sqrt(x)](https://leetcode.com/problems/sqrtx/description/)|Math|Easy|[C](/Algorithms/C/69-Sqrt(x).md) [Java](/Algorithms/Java/69-Sqrt(x).md)|
 198.|[House Robber](https://leetcode.com/problems/house-robber/description/)|Array|Easy|[C](/Algorithms/C/198-House-Robber.md) [Java](/Algorithms/Java/198-House-Robber.md)|
 205.|[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/description/)|Array|Easy|[C](/Algorithms/C/205-Isomorphic-Strings.md) [Java](/Algorithms/Java/205-Isomorphic-Strings.md)|
