@@ -16,7 +16,7 @@ For the purpose of this problem, we define empty string as valid palindrome.
 
 ##### Solution 1.
 
-這題先把所有字母轉為小寫再很直覺的走訪每個字元把英文字母和數字存入 `StringBuffer` 中最後做字串翻轉 `reverse()` 與未翻轉做比對，記得字串比對要轉為一般 `String` 型態。
+C語言什麼都必須自己來所以要手動把字串中的字母與數字抽離出來，遇到大寫字母轉成小寫 `(+ 'a' - 'A')` ，最後再同時頭尾比對每個字元是否相同，這邊要注意的是用字元陣列走訪似乎會超時(最後一筆過不了)，使用指標就會過了。
 
 - 字串處理
 - Run Time: 6 ms
