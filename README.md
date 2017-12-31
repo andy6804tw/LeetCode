@@ -16,7 +16,8 @@
 53.|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/)|Array|Easy|[C](/Algorithms/C/53-Maximum-Subarray.md) [Java](/Algorithms/Java/53-Maximum-Subarray.md)|
 67.|[Add Binary](https://leetcode.com/problems/add-binary/description/)|Array|Easy|[C](/Algorithms/C/67-Add-Binary.md) [Java](/Algorithms/Java/67-Add-Binary.md)|
 69.|[Sqrt(x)](https://leetcode.com/problems/sqrtx/description/)|Math|Easy|[C](/Algorithms/C/69-Sqrt(x).md) [Java](/Algorithms/Java/69-Sqrt(x).md)|
-70.|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/description/)|Dynamic|Easy|[C](/Algorithms/C/70-Climbing-Stairs.md) [Java](/Algorithms/Java/70-Climbing-Stairs.md)|
+83.|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/)|LinkedList|Easy|[C](/Algorithms/C/83-Remove-Duplicates-from-Sorted-List.md) [Java](/Algorithms/Java/83-Remove-Duplicates-from-Sorted-List.md)|
+88.|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/description/)|Array|Easy|[C](/Algorithms/C/88-Merge-Sorted-Array.md) [Java](/Algorithms/Java/88-Merge-Sorted-Array.md)|
 125.|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/description/)|Strung|Easy|[C](/Algorithms/C/125-Valid-Palindrome.md) [Java](/Algorithms/Java/125-Valid-Palindrome.md)|
 198.|[House Robber](https://leetcode.com/problems/house-robber/description/)|Array|Easy|[C](/Algorithms/C/198-House-Robber.md) [Java](/Algorithms/Java/198-House-Robber.md)|
 205.|[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/description/)|Array|Easy|[C](/Algorithms/C/205-Isomorphic-Strings.md) [Java](/Algorithms/Java/205-Isomorphic-Strings.md)|
