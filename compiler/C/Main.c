@@ -1,25 +1,20 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <math.h>
 typedef int bool;
-void merge(int *nums1, int m, int *nums2, int n);
+int titleToNumber(char *s); 
 int main()
 {
-  int arr[]={1,0},arr2[]={2};
-  merge(arr,1,arr2,1);
+  char arr[]="ABA";
+  printf("%d\n", titleToNumber(arr));
 }
-void merge(int *nums1, int m, int *nums2, int n)
+int titleToNumber(char *s)
 {
-  int i=m,p=n,j=0;
-  for(;i<m+n;i++)
-    nums1[i]=nums2[--p];
-  for(i=0;i<m+n;i++){
-    for(j=i+1;j<m+n;j++){
-      if(nums1[i]>nums1[j]){
-        int temp = nums1[i];
-        nums1[i]=nums1[j];
-        nums1[j]=temp;
-      }
-    }
+  int tot = 0, i = 0, len = strlen(s);
+  for (i = 0; i < len; i++)
+  {
+    tot += (int)pow(26, len - 1 - i) * (s[i] - 'A' + 1);
   }
+  return tot;
 }
