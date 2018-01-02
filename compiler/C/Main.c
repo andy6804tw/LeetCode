@@ -3,18 +3,27 @@
 #include <string.h>
 #include <math.h>
 typedef int bool;
-int titleToNumber(char *s); 
+char *convertToTitle(int n);
 int main()
 {
   char arr[]="ABA";
-  printf("%d\n", titleToNumber(arr));
+  printf("%s\n", convertToTitle(28));
 }
-int titleToNumber(char *s)
+char *convertToTitle(int n)
 {
-  int tot = 0, i = 0, len = strlen(s);
-  for (i = 0; i < len; i++)
-  {
-    tot += (int)pow(26, len - 1 - i) * (s[i] - 'A' + 1);
+  int index=0,i=0;
+  char *arr=(char*)calloc(10000,sizeof(char));
+  while(n>0){
+    n--;
+    arr[index++]=(char)(n%26+'A');
+    n/=26;
   }
-  return tot;
+  arr[index]='\0';
+  for (i = 0; i < index/2; i++)
+  {
+     char temp = arr[index - i-1];
+    arr[index - i-1] = arr[i];
+    arr[i]=temp;
+  }
+  return arr;
 }
