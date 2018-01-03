@@ -3,27 +3,24 @@
 #include <string.h>
 #include <math.h>
 typedef int bool;
-char *convertToTitle(int n);
+int majorityElement(int *nums, int numsSize);
 int main()
 {
-  char arr[]="ABA";
-  printf("%s\n", convertToTitle(28));
+  int arr[]={2,2,3,3,4,5};
+  printf("%d\n",majorityElement(arr,6));
 }
-char *convertToTitle(int n)
+int majorityElement(int *nums, int numsSize)
 {
-  int index=0,i=0;
-  char *arr=(char*)calloc(10000,sizeof(char));
-  while(n>0){
-    n--;
-    arr[index++]=(char)(n%26+'A');
-    n/=26;
+  int num=0,count=0,i=0;
+  for(i=0;i<numsSize;i++){
+    printf("%d ",count);
+    if(count==0)
+      num=nums[i];
+    if(nums[i]==num)
+      count++;
+    else
+    count--;
   }
-  arr[index]='\0';
-  for (i = 0; i < index/2; i++)
-  {
-     char temp = arr[index - i-1];
-    arr[index - i-1] = arr[i];
-    arr[i]=temp;
-  }
-  return arr;
+  return num;
+
 }
