@@ -3,24 +3,25 @@
 #include <string.h>
 #include <math.h>
 typedef int bool;
-int majorityElement(int *nums, int numsSize);
+int *twoSum(int *numbers, int numbersSize, int target, int *returnSize);
 int main()
 {
-  int arr[]={2,2,3,3,4,5};
-  printf("%d\n",majorityElement(arr,6));
+  int arr[] = {2, 3, 4, 5, 6};
+  printf("%d\n", twoSum(arr, 5,8,arr)[0]);
 }
-int majorityElement(int *nums, int numsSize)
-{
-  int num=0,count=0,i=0;
-  for(i=0;i<numsSize;i++){
-    printf("%d ",count);
-    if(count==0)
-      num=nums[i];
-    if(nums[i]==num)
-      count++;
-    else
-    count--;
+int *twoSum(int *numbers, int numbersSize, int target, int *returnSize){
+  int arr[100000] = {0}, i = 0, *ans=(int*)calloc(2,sizeof(int));
+  for(i=0;i<numbersSize;i++)
+  {
+    if (arr[target - numbers[i]+1000] > 0)
+    {
+      ans[0] = i + 1 > arr[target - numbers[i] + 1000] ? arr[target - numbers[i] + 1000] : i + 1;
+      ans[1] = i + 1 < arr[target - numbers[i] + 1000] ? arr[target - numbers[i] + 1000] : i + 1;
+      break;
+    }else{
+      arr[numbers[i] + 1000] = i + 1;
+    }
   }
-  return num;
-
+  *returnSize=2;
+  return ans;
 }

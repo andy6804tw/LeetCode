@@ -20,6 +20,8 @@
 88.|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/description/)|Array|Easy|[C](/Algorithms/C/88-Merge-Sorted-Array.md) [Java](/Algorithms/Java/88-Merge-Sorted-Array.md)|
 125.|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/description/)|Strung|Easy|[C](/Algorithms/C/125-Valid-Palindrome.md) [Java](/Algorithms/Java/125-Valid-Palindrome.md)|
 168.|[Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-number/description/)|Math|Easy|[C](/Algorithms/C/168-Excel-Sheet-Column-Title.md) [Java](/Algorithms/Java/168-Excel-Sheet-Column-Title.md)|
+167.|[Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/)|Array|Easy|[C](/Algorithms/C/167-Two-Sum-II-Input-array-is-sorted.md) [Java](/Algorithms/Java/167-Two-Sum-II-Input-array-is-sorted.md)|
+169.|[Majority Element](https://leetcode.com/problems/majority-element/description/)|Array|Easy|[C](/Algorithms/C/169-Majority-Element.md) [Java](/Algorithms/Java/169-Majority-Element.md)|
 171.|[Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/description/)|Math|Easy|[C](/Algorithms/C/171-Excel-Sheet-Column-Number.md) [Java](/Algorithms/Java/171-Excel-Sheet-Column-Number.md)|
 198.|[House Robber](https://leetcode.com/problems/house-robber/description/)|Array|Easy|[C](/Algorithms/C/198-House-Robber.md) [Java](/Algorithms/Java/198-House-Robber.md)|
 205.|[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/description/)|Array|Easy|[C](/Algorithms/C/205-Isomorphic-Strings.md) [Java](/Algorithms/Java/205-Isomorphic-Strings.md)|
