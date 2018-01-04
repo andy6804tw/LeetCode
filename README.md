@@ -25,6 +25,7 @@
 171.|[Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/description/)|Math|Easy|[C](/Algorithms/C/171-Excel-Sheet-Column-Number.md) [Java](/Algorithms/Java/171-Excel-Sheet-Column-Number.md)|
 198.|[House Robber](https://leetcode.com/problems/house-robber/description/)|Array|Easy|[C](/Algorithms/C/198-House-Robber.md) [Java](/Algorithms/Java/198-House-Robber.md)|
 205.|[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/description/)|Array|Easy|[C](/Algorithms/C/205-Isomorphic-Strings.md) [Java](/Algorithms/Java/205-Isomorphic-Strings.md)|
+217.|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/description/)|Array|Easy|[C](/Algorithms/C/217-Contains-Duplicate.md) [Java](/Algorithms/Java/217-Contains-Duplicate.md)|
 242.|[Valid Anagram](https://leetcode.com/problems/valid-anagram/description/)|String|Easy|[C](/Algorithms/C/242-Valid-Anagram.md) [Java](/Algorithms/Java/242-Valid-Anagram.md)|
 283.|[Move Zeroes](https://leetcode.com/problems/move-zeroes/description/)|Array|Easy|[C](/Algorithms/C/283-Move-Zeroes.md) [Java](/Algorithms/Java/283-Move-Zeroes.md)|
 292.|[Nim Game](https://leetcode.com/problems/nim-game/description/)|Math|Easy|[C](/Algorithms/C/292-Nim-Game.md) [Java](/Algorithms/Java/292-Nim-Game.md)|
