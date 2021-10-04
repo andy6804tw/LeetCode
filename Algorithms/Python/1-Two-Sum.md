@@ -52,10 +52,17 @@ class Solution(object):
 此種方法是利用容器 HashMap 下去實作使用 Key、Value 下去做搜尋，Key 儲存 twoSum 裡的內容，Value 儲存 twoSum 裡的索引值。
 
 - One-pass Hash Table
-- Run Time:	8 ms
+- Run Time:	40 ms
 - 時間複雜度 O(n)
 - 空間複雜度 O(n)
 
 ```py
-
+class Solution(object):
+    def twoSum(self, nums, target):
+        hashmap = {}
+        for i in range(len(nums)):
+            remain = target-nums[i]
+            if remain in hashmap:
+                return [i, hashmap[remain]]
+            hashmap[nums[i]]= i
 ```
