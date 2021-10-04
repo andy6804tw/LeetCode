@@ -4,8 +4,8 @@
 
 | No.   | Problem  | Category  | Difficulty | Solouion |
 |:--------:|:-----------:|:---------:|:---------:|:---------:|
-1.|[Two Sum](https://leetcode.com/problems/reverse-string/description/) |Array |Easy | [C](/Algorithms/C/1-Two-Sum.md) [Java](/Algorithms/Java/1-Two-Sum.md)
-2.|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/) |LinkedList |Medium |[C](/Algorithms/C/2-Add-Two-Numbers.md) [Java](/Algorithms/Java/qqq.md)
+1.|[Two Sum](https://leetcode.com/problems/two-sum) |Array |Easy | [C](/Algorithms/C/1-Two-Sum.md) [Java](/Algorithms/Java/1-Two-Sum.md) [Python](/Algorithms/Python/1-Two-Sum.md)
+2.|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/) |LinkedList |Medium |[C](/Algorithms/C/2-Add-Two-Numbers.md) [Java](/Algorithms/Java/2-Add-Two-Numbers.md)
 7.|[Reverse Integer](https://leetcode.com/problems/reverse-integer/description/)|Math|Easy| [C](/Algorithms/C/7-Reverse-Integer.md) [Java](/Algorithms/Java/7-Reverse-Integer.md) 
 9.|[Palindrome Number](https://leetcode.com/problems/palindrome-number/description/)|Math |Easy| [C](/Algorithms/C/20-Valid-Parentheses.md) [Java](/Algorithms/Java/9-Palindrome-Number.md) 
 14.|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/)|Array |Easy| [C](/Algorithms/C/14-Longest-Common-Prefix.md) [Java](/Algorithms/Java/14-Longest-Common-Prefix.md) 
