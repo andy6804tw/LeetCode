@@ -1,4 +1,4 @@
-# 28. Implement strStr() (Java)
+# 28. Implement strStr() (Python)
 ## Problem
 
 Implement strStr().
