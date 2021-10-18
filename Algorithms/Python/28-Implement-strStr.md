@@ -36,7 +36,7 @@ class Solution:
 
 ##### Solution 2.
 
-這個方法是用子字串切割逐一比對字串，使用 String 類別裡的 substring() 方法。
+這個方法是用子字串切割逐一比對字串，使用串列 slicing 方法取得子字串比對。
 
 - String 函式
 - Run Time: 52 ms
