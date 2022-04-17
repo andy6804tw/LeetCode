@@ -13,7 +13,7 @@
 26.|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/)|Array|Easy|[C](/Algorithms/C/26-Remove-Duplicates-from-Sorted-Array.md) [Java](/Algorithms/Java/26-Remove-Duplicates-from-Sorted-Array.md) [Python](/Algorithms/Python/26-Remove-Duplicates-from-Sorted-Array.md)
 28.|[ Implement strStr()](https://leetcode.com/problems/implement-strstr/description/)|String|Easy|[C](/Algorithms/C/28-Implement-strStr.md) [Java](/Algorithms/Java/28-Implement-strStr.md) [Python](/Algorithms/Python/28-Implement-strStr.md)
 35.|[Search Insert Position](https://leetcode.com/problems/search-insert-position/description/)|Array|Easy|[C](/Algorithms/C/35-Search-Insert-Position.md) [Java](/Algorithms/Java/35-Search-Insert-Position.md) [Python](/Algorithms/Python/35-Search-Insert-Position.md)|
-38.|[Count and Say](https://leetcode.com/problems/count-and-say/description/)|String|Easy|[C](/Algorithms/C/38-Count-and-Say.md) [Java](/Algorithms/Java/38-Count-and-Say.md)|
+38.|[Count and Say](https://leetcode.com/problems/count-and-say/description/)|String|Easy|[C](/Algorithms/C/38-Count-and-Say.md) [Java](/Algorithms/Java/38-Count-and-Say.md) [Python](/Algorithms/Python/38-Count-and-Say.md)|
 53.|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/)|Array|Easy|[C](/Algorithms/C/53-Maximum-Subarray.md) [Java](/Algorithms/Java/53-Maximum-Subarray.md)|
 67.|[Add Binary](https://leetcode.com/problems/add-binary/description/)|Array|Easy|[C](/Algorithms/C/67-Add-Binary.md) [Java](/Algorithms/Java/67-Add-Binary.md)|
 69.|[Sqrt(x)](https://leetcode.com/problems/sqrtx/description/)|Math|Easy|[C](/Algorithms/C/69-Sqrt(x).md) [Java](/Algorithms/Java/69-Sqrt(x).md)|
