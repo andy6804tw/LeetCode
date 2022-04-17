@@ -34,7 +34,7 @@
 - Decode Ways
 - Unique Paths
 - Jump Game
-#### **Graph**
+#### **Graph**
 - Clone Graph
 - Course Schedule
 - Pacific Atlantic Water Flow
