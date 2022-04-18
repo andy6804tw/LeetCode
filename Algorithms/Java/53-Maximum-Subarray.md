@@ -14,7 +14,7 @@ If you have figured out the O(n) solution, try coding another solution using the
 
 ##### Solution 1.
 
-Kadane's演算法能夠使用一個迴圈得出答案，若要更快速就要使用分而治之來實作了，間單蘭說Kadane's演算法就是當遇到負數就歸零，每次相加結果取最大數。
+Kadane's演算法能夠使用一個迴圈得出答案，若要更快速就要使用分而治之來實作了，間單來說Kadane's演算法就是當遇到負數就歸零，每次相加結果取最大數。
 
 - 陣列走訪
 - Run Time: 14 ms
