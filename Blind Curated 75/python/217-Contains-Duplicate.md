@@ -27,7 +27,7 @@ Output: true
 
 使用 sorted() 或是 sort() 來排序，再逐一搜尋是有存在重複元素。
 
-- 字串處理
+- 串列處理
 - Run Time: 578 ms
 
 ```py
@@ -43,7 +43,7 @@ class Solution(object):
 ## Solution 2.
 使用 Set 容器來記錄每個值，Set 是一個集合會自動拋棄重複數字。因為少了排序所以可以大幅減少搜尋時間。
 
-- 字串處理
+- 串列處理
 - Run Time: 18 ms
 
 ```py
