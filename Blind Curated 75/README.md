@@ -62,6 +62,9 @@
 - Rotate Image
 - Word Search
 #### **String**
+| No.   | Problem  | Category  | Difficulty | Solouion |
+|:--------:|:-----------:|:---------:|:---------:|:---------:|
+242.|[Valid Anagram](https://leetcode.com/problems/valid-anagram/) |String |Easy |  [Python](/Blind%20Curated%2075/python/121-Best-Time-to-Buy-and-Sell-Stock.md)
 - Longest Substring Without Repeating Characters
 - Longest Repeating Character Replacement
 - Minimum Window Substring
