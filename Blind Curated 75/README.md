@@ -6,6 +6,7 @@
 | No.   | Problem  | Category  | Difficulty | Solouion |
 |:--------:|:-----------:|:---------:|:---------:|:---------:|
 121.|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) |Array |Easy |  [Python](/Blind%20Curated%2075/python/121-Best-Time-to-Buy-and-Sell-Stock.md)
+217.|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) |Array |Easy |  [Python](/Blind%20Curated%2075/python/217-Contains-Duplicate.md)
 - Two Sum
 - Best Time to Buy and Sell Stock
 - Contains Duplicate
