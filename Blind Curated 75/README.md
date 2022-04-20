@@ -36,6 +36,10 @@
 - Unique Paths
 - Jump Game
 #### **Graph**
+| No.   | Problem  | Category  | Difficulty | Solouion |
+|:--------:|:-----------:|:---------:|:---------:|:---------:|
+57.|[Insert Interval](https://leetcode.com/problems/insert-interval/) |Graph |Medium |  [Python](/Blind%20Curated%2075/python/57-Insert-Interval.md)
+
 - Clone Graph
 - Course Schedule
 - Pacific Atlantic Water Flow
