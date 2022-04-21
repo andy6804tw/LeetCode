@@ -16,7 +16,7 @@
 38.|[Count and Say](https://leetcode.com/problems/count-and-say/description/)|String|Easy|[C](/Algorithms/C/38-Count-and-Say.md) [Java](/Algorithms/Java/38-Count-and-Say.md) [Python](/Algorithms/Python/38-Count-and-Say.md)|
 53.|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/)|Array|Easy|[C](/Algorithms/C/53-Maximum-Subarray.md) [Java](/Algorithms/Java/53-Maximum-Subarray.md) [Python](/Algorithms/Python/53-Maximum-Subarray.md)|
 67.|[Add Binary](https://leetcode.com/problems/add-binary/description/)|Array|Easy|[C](/Algorithms/C/67-Add-Binary.md) [Java](/Algorithms/Java/67-Add-Binary.md)|
-69.|[Sqrt(x)](https://leetcode.com/problems/sqrtx/description/)|Math|Easy|[C](/Algorithms/C/69-Sqrt(x).md) [Java](/Algorithms/Java/69-Sqrt(x).md)|
+69.|[Sqrt(x)](https://leetcode.com/problems/sqrtx/description/)|Math|Easy|[C](/Algorithms/C/69-Sqrt(x).md) [Java](/Algorithms/Java/69-Sqrt(x).md) [Python](/Algorithms/Python/69-Sqrt(x).md)|
 83.|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/)|LinkedList|Easy|[C](/Algorithms/C/83-Remove-Duplicates-from-Sorted-List.md) [Java](/Algorithms/Java/83-Remove-Duplicates-from-Sorted-List.md)|
 88.|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/description/)|Array|Easy|[C](/Algorithms/C/88-Merge-Sorted-Array.md) [Java](/Algorithms/Java/88-Merge-Sorted-Array.md)|
 125.|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/description/)|Strung|Easy|[C](/Algorithms/C/125-Valid-Palindrome.md) [Java](/Algorithms/Java/125-Valid-Palindrome.md)|
